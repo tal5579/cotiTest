@@ -1,0 +1,13 @@
+.listContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    position: relative;
+    flex-direction: column;
+}
+
+li {
+    cursor: pointer;
+}

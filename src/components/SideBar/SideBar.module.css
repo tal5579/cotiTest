@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.AlphabetNav {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: .5rem;
+  background: ghostwhite;
+}
+
+.AlphabetNav a {
+  display: flex;
+  justify-content: center;
+  padding: .5em;
+  border-radius: 8px;
+  font-size: 1.2em;
+  line-height: 1;
+  font-weight: 500;
+  text-decoration: none;
+  color: lightslategray;
+  cursor: pointer;
+}
+
+.AlphabetNav a:hover {
+  background: #ddd;
+  color: #444;
+}
+
+.AlphabetNav .active {
+  background: #f46353;
+  color: white;
+}

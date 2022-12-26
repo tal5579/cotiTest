@@ -1,0 +1,16 @@
+.App {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.search {
+  width: 30%;
+  position: relative;
+  display: flex;
+  margin-top: 10px
+}
